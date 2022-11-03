@@ -5,7 +5,7 @@ the number of participants'''
 # Welcome the user
 print("Welcome to the Tip Calculator")
 # ask for the total bill
-bill = float(input("Please type in the total bill: "))
+bill = float(input("Please type in the total bill:N"))
 # ask for the % tip which should be either 10, 12 or 15
 percent_tip = int(input("How much tip would you like to give (10, 12 or 15)?: "))
 # ask for the total number of participants
