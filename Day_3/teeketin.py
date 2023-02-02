@@ -10,6 +10,8 @@ if height >= 120:
         BILL = 5
     elif age <= 18:
         BILL = 7
+    elif age >= 45 and age <= 55:
+        BILL = 0
     else:
         BILL = 12
     want_photo = input("Do you want a poto taken? Y or N: ")
